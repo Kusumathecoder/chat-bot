@@ -6,7 +6,7 @@ const deleteChatButton=document.querySelector("#delete-chat-button");
 let userMessage=null;
 let isResponseGenerating=false;
 let API_KEY="Api";
-const API_URL=`https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${API_KEY}`;
+const API_URL=`google`;
 const loadLocalstorageData=()=>{
     const savedChats=localStorage.getItem("savedChats");
     const isLightMode=(localStorage.getItem("themeColor")==="light_mode");
